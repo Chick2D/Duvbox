@@ -1,1 +1,1 @@
-{"name": "Duvbox", "version": "1.6.0", "description": "A Discord theme based on the Vim theme, Gruvbox", "author": "CircuitRCAY", "theme": "duvbox.css", "license": "MIT"}
+{"name": "Duvbox 2.0", "version": "1.0", "description": "A fork of duvbox aiming to decrease contrast", "author": "Chick#0323", "theme": "duvbox.css", "license": "MIT"}

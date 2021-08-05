@@ -1,34 +1,17 @@
-//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.6.0"}*//
+//META{"name":"Duvbox 2.0","description":"A Discord theme based on Gruvbox, a Vim theme","author":"Chick#0323","version":"1.5.0"}*//
 /**
     Duvbox - adapted for Discord
     
     Made by CircuitRCAY (Circuit#2816)
-*/
-
-/* Iosevka, codeblock font */
-
-@import url("https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css");
-
-code {
-    font-family: "TypoPRO Iosevka Term", monospace;
-    font-weight: 400;
-}
-
-/* Iosevka on Powercord */
-pre > code {
-    font-family: "TypoPRO Iosevka Term", monospace;
-    font-weight: 400;
-}
-
-
-/** End Iosevka */
+    Forked by (Chick#0323)
+**/
 
 .theme-dark {
     --background-primary: #282828;
-    --background-secondary: #3c3836;
-    --background-tertiary: #504945;
+    --background-secondary: #282828;
+    --background-tertiary: #282828;
     --background-accent: #32302f;
-    --text-normal: #ebdbb2;
+    --text-normal: #D6C59B;
     --text-spotify: #fbf1c7;
     --text-muted: #bdae93;
     --text-link: #458588;
@@ -44,20 +27,37 @@ pre > code {
 
 .theme-light {
     --background-primary: #fbf1c7;
-    --background-secondary: #ebdbb2;
-    --background-tertiary: #d5c4a1;
-    --background-accent: #f2e5bc;
+    --background-secondary: #fbf1c7;
+    --background-tertiary: #fbf1c7;
+    --background-accent: #fbf1c7;;
     --text-normal: #3c3836;
     --text-muted: #504945;
     --text-link: #076678;
     --header-primary: #3c3836;
     --header-secondary: #504945;
     --header-spotify: #98971a;
-    --background-floating: #ebdbb2;
+    --background-floating: #fbf1c7;
     --interactive-normal: #665c54;
     --interactive-muted: #928374;
     --interactive-hover: #504945;
     --interactive-active: #7c6f64;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    width:5px !important;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--background-secondary) !important;
+    width:5px !important;
+    border:none !important;
+    border-radius: 0px !important;
 }
 
 ::-webkit-scrollbar,

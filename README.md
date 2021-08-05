@@ -1,7 +1,5 @@
-[![The Motherboard](https://discordapp.com/api/guilds/589404444534243352/embed.png?style=banner2)](https://discord.gg/ssdp3sN)
-
-# Duvbox
-Duvbox, a portmanteau of "discord" and "gruvbox", is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), named Gruvbox.
+# Duvbox 2.0
+A fork of Duvbox aiming to reduce contrast to be even easier on the eyes., a portmanteau of "discord" and "gruvbox", is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), named Gruvbox.
 
 ## Installation
 Use the relevant installation guides for your modding platform.
